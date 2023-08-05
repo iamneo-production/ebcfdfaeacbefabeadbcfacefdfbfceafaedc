@@ -34,41 +34,40 @@ public Long getTaskId() {
 }
 
 public void setTaskId(Long taskId) {
-                                                                            this.taskId = taskId;
-                                                                                }
+    this.taskId = taskId;
+}
 
-                                                                                    public String getTaskHolderName() {
-                                                                                            return taskHolderName;
-                                                                                                }
+public String getTaskHolderName() {
+    return taskHolderName;
+}
 
-                                                                                                    public void setTaskHolderName(String taskHolderName) {
-                                                                                                            this.taskHolderName = taskHolderName;
-                                                                                                                }
+public void setTaskHolderName(String taskHolderName) {
+    this.taskHolderName = taskHolderName;
+}
 
-                                                                                                                    public LocalDate getTaskDate() {
-                                                                                                                            return taskDate;
-                                                                                                                                }
+public LocalDate getTaskDate() {
+    return taskDate;
+}
 
-                                                                                                                                    public void setTaskDate(LocalDate taskDate) {
-                                                                                                                                            this.taskDate = taskDate;
-                                                                                                                                                }
+public void setTaskDate(LocalDate taskDate) {
+    this.taskDate = taskDate;
+}
 
-                                                                                                                                                    public String getTaskName() {
-                                                                                                                                                            return taskName;
-                                                                                                                                                                }
+public String getTaskName() {
+    return taskName;
+}
 
-                                                                                                                                                                    public void setTaskName(String taskName) {
-                                                                                                                                                                            this.taskName = taskName;
-                                                                                                                                                                                }
+public void setTaskName(String taskName) {
+    this.taskName = taskName;
+}
 
-                                                                                                                                                                                    public String getTaskStatus() {
-                                                                                                                                                                                            return taskStatus;
-                                                                                                                                                                                                }
+public String getTaskStatus() {
+    return taskStatus;
+}
 
-                                                                                                                                                                                                    public void setTaskStatus(String taskStatus) {
-                                                                                                                                                                                                            this.taskStatus = taskStatus;
-                                                                                                                                                                                                                }
+public void setTaskStatus(String taskStatus) {
+    this.taskStatus = taskStatus;
+}
 
-                                                                                                                                                                                                                   
-                                                                                                                                                                                                                   }
+}
 
