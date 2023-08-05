@@ -55,9 +55,9 @@ public class TaskController {
     @GetMapping("/getTask")
     public ResponseEntity<Task> getTaskByHolderName(@RequestParam String taskHolderName) {
         Task task = taskRepository.findByTaskHolderName(taskHolderName);
-                                                                                                                                                                                                            if (task == null) {
-                                                                                                                                                                                                                        return ResponseEntity.notFound().build();
-                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                        return ResponseEntity.ok(task);
-                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                            }
+        if (task == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(task);
+}
+}
