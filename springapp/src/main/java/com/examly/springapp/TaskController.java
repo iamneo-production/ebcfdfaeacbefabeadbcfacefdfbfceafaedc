@@ -52,9 +52,9 @@ public class TaskController {
         return ResponseEntity.ok(tasks);
     }
 
-                                                                                                                                                                                        @GetMapping("/getTask")
-                                                                                                                                                                                            public ResponseEntity<Task> getTaskByHolderName(@RequestParam String taskHolderName) {
-                                                                                                                                                                                                    Task task = taskRepository.findByTaskHolderName(taskHolderName);
+    @GetMapping("/getTask")
+    public ResponseEntity<Task> getTaskByHolderName(@RequestParam String taskHolderName) {
+        Task task = taskRepository.findByTaskHolderName(taskHolderName);
                                                                                                                                                                                                             if (task == null) {
                                                                                                                                                                                                                         return ResponseEntity.notFound().build();
                                                                                                                                                                                                                                 }
